@@ -53,7 +53,6 @@ Key Android Features:
 - Applications written in Java/Kotlin run on ART
 
 -------------------------------------------
-1.Android vs Linux Architecture
 # Android vs Linux Architecture
 
 | Layer                        | Android                                                       | Linux                                                      |
@@ -68,13 +67,9 @@ Key Android Features:
 | **C Library**               | Bionic C                                                      | glibc, musl                                                 |
 | **Kernel**                  | Modified Linux kernel (with Binder, wakelocks, LMK, etc.)     | Vanilla Linux kernel                                        |
 
-
-2. LINUX ARCHITECTURE
-   
-   ![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
-
-Linux follows a layered architecture with two main spaces:
-
+# LINUX ARCHITECTURE
+- Linux follows a layered architecture with two main spaces:
+				![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
 A. USER SPACE:
 - Applications: Programs like editors, terminals, browsers
 - Services: Background daemons (e.g., cron, sshd)
