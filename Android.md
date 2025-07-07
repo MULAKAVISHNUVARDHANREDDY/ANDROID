@@ -70,6 +70,7 @@ Key Android Features:
 # LINUX ARCHITECTURE
 - Linux follows a layered architecture with two main spaces:
 				![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
+  
 A. USER SPACE:
 - Applications: Programs like editors, terminals, browsers
 - Services: Background daemons (e.g., cron, sshd)
@@ -85,7 +86,7 @@ Summary: Applications in user space communicate with the kernel using system cal
 
 -------------------------------------------
 
-3. ANDROID ARCHITECTURE
+# ANDROID ARCHITECTURE
 
    -Android is built on top of Linux and adds several mobile-specific layers:
    
@@ -111,9 +112,8 @@ Summary: Applications in user space communicate with the kernel using system cal
       - Your messaging app communicates with the Telephony Service (running in System Server) via Binder to send an SMS.
 8. Android apps use the framework and Binder IPC to talk to services. HAL allows OEMs to implement hardware features without changing upper layers.
 -------------------------------
-
-4. ANDROID BOOT PROCESS
-      -- The Android startup process involves a sequence of steps, starting with the bootloader and culminating in a "boot complete" broadcast, enabling Android applications to run.
+# ANDROID BOOT PROCESS
+- The Android startup process involves a sequence of steps, starting with the bootloader and culminating in a "boot complete" broadcast, enabling Android applications to run.
 Here's a detailed breakdown of the process:
 
    ![image](https://github.com/user-attachments/assets/4a6d9ba8-8cdd-46ec-bed7-37d187503ca7)
