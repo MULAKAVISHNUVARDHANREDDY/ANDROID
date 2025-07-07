@@ -75,8 +75,11 @@ Summary: Applications in user space communicate with the kernel using system cal
 -------------------------------------------
 
 3. ANDROID ARCHITECTURE
-Android is built on top of Linux and adds several mobile-specific layers:
+
+   -Android is built on top of Linux and adds several mobile-specific layers:
+   
 ![Screenshot 2025-07-03 095735](https://github.com/user-attachments/assets/638d7674-d79a-46ae-8b1a-3f58992bee51)
+
 
 
 1. Applications
