@@ -1,10 +1,10 @@
 # Android OS
 1.What is Android OS?
--
+```
 Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets. Developed by Google and maintained via the Android Open Source Project (AOSP), it powers billions of devices worldwide, including wearables, smart TVs, and cars.
 1.First commercial release: Android 1.0 (2008)
-2.Current version: Android 14 (API 34)
--
+2.Current version: Android 14 (API 34).
+```
 
 ## Key Features of Android OS
 1. Open-Source Foundation
@@ -53,6 +53,22 @@ Key Android Features:
 - Applications written in Java/Kotlin run on ART
 
 -------------------------------------------
+1.Android vs Linux Architecture
+# Android vs Linux Architecture
+
+| Layer                        | Android                                                       | Linux                                                      |
+|-----------------------------|----------------------------------------------------------------|-------------------------------------------------------------|
+| **Applications**            | User-installed apps (`.apk`)                                  | CLI tools, GUI apps (e.g., GNOME, KDE)                      |
+| **Framework / APIs**        | Android Framework (ActivityManager, ContentProvider, etc.)    | No centralized framework, depends on distro and libraries   |
+| **Runtime / VM**            | ART (Android Runtime) or older Dalvik VM                      | No VM by default, apps run natively or with interpreter     |
+| **System Services**         | SystemServer services (e.g., PowerManager, WindowManager)     | System daemons (e.g., cron, dbus, udev)                     |
+| **Hardware Abstraction Layer** | HAL modules for camera, GPS, Bluetooth, etc.              | Direct driver access or via user libraries                  |
+| **Native Libraries / Daemons** | libc, OpenGL, SurfaceFlinger, media codecs, etc.          | glibc, libX11, PulseAudio, etc.                             |
+| **IPC Mechanism**           | Binder IPC (Android-specific kernel driver)                   | System V IPC, POSIX message queues, pipes                   |
+| **C Library**               | Bionic C                                                      | glibc, musl                                                 |
+| **Kernel**                  | Modified Linux kernel (with Binder, wakelocks, LMK, etc.)     | Vanilla Linux kernel                                        |
+
+
 2. LINUX ARCHITECTURE
    
    ![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
@@ -100,6 +116,7 @@ Summary: Applications in user space communicate with the kernel using system cal
       - Your messaging app communicates with the Telephony Service (running in System Server) via Binder to send an SMS.
 8. Android apps use the framework and Binder IPC to talk to services. HAL allows OEMs to implement hardware features without changing upper layers.
 -------------------------------
+
 4. ANDROID BOOT PROCESS
       -- The Android startup process involves a sequence of steps, starting with the bootloader and culminating in a "boot complete" broadcast, enabling Android applications to run.
 Here's a detailed breakdown of the process:
@@ -161,6 +178,4 @@ The Android boot process includes the following stages:
      Example: Launcher is the front desk receptionist â€” hands you access to everything
 This layered boot ensures a secure, modular, and fast startup.
 
-
-![image](https://github.com/user-attachments/assets/0cb0d9b5-0fcf-485d-947a-ff3a1c3d8057)
 
