@@ -162,3 +162,5 @@ The Android boot process includes the following stages:
 This layered boot ensures a secure, modular, and fast startup.
 
 
+![image](https://github.com/user-attachments/assets/0cb0d9b5-0fcf-485d-947a-ff3a1c3d8057)
+
