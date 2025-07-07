@@ -96,14 +96,13 @@ Summary: Applications in user space communicate with the kernel using system cal
    - Base kernel with Android-specific features like Binder, Wake Locks
 7. Binder IPC (Inter-Process Communication)
    - Android uses a custom IPC mechanism called Binder, which is built into the kernel.Apps and services use Binder IPC to safely communicate across processes.
-
-🧠 Example:
-   - Your messaging app communicates with the Telephony Service (running in System Server) via Binder to send an SMS.
-
+   🧠 Example:
+      - Your messaging app communicates with the Telephony Service (running in System Server) via Binder to send an SMS.
 8. Android apps use the framework and Binder IPC to talk to services. HAL allows OEMs to implement hardware features without changing upper layers.
 -------------------------------
 4. ANDROID BOOT PROCESS
- 
+
+   ![image](https://github.com/user-attachments/assets/4a6d9ba8-8cdd-46ec-bed7-37d187503ca7)
 
 The Android boot process includes the following stages:
 
