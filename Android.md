@@ -1,4 +1,4 @@
-# Android OS
+# **Android OS**
 1.What is Android OS?
 ```
 Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets. Developed by Google and maintained via the Android Open Source Project (AOSP), it powers billions of devices worldwide, including wearables, smart TVs, and cars.
@@ -6,11 +6,10 @@ Android is an open-source operating system based on the Linux kernel, designed p
 2.Current version: Android 14 (API 34).
 ```
 
-## Key Features of Android OS
+## **Key Features of Android OS**
 1. Open-Source Foundation
 Source code available under AOSP
-
-Highly customizable by OEMs and developers
+	Highly customizable by OEMs and developers
 
 2. Linux Kernel-Based
 Built on a modified version of the Linux kernel Handles low-level device interactions and system services
@@ -39,7 +38,7 @@ Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
 10. Extensive Hardware Support
 Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
 
-# ANDROID
+# **ANDROID**
 -----------
 Android is a mobile operating system developed by Google, built on top of the Linux kernel. It is used in smartphones, tablets, smart TVs, and other smart devices. Android enhances the base Linux system with a full software stack including the Android Runtime (ART), system services, an application framework, and apps.
 
@@ -53,7 +52,7 @@ Key Android Features:
 - Applications written in Java/Kotlin run on ART
 
 -------------------------------------------
-# Android vs Linux Architecture
+# **Android vs Linux Architecture**
 
 | Layer                        | Android                                                       | Linux                                                      |
 |-----------------------------|----------------------------------------------------------------|-------------------------------------------------------------|
@@ -67,7 +66,7 @@ Key Android Features:
 | **C Library**               | Bionic C                                                      | glibc, musl                                                 |
 | **Kernel**                  | Modified Linux kernel (with Binder, wakelocks, LMK, etc.)     | Vanilla Linux kernel                                        |
 
-# LINUX ARCHITECTURE
+# **LINUX ARCHITECTURE**
 - Linux follows a layered architecture with two main spaces:
 		![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
   
@@ -86,7 +85,7 @@ Summary: Applications in user space communicate with the kernel using system cal
 
 -------------------------------------------
 
-# ANDROID ARCHITECTURE
+# **ANDROID ARCHITECTURE**
 
    -Android is built on top of Linux and adds several mobile-specific layers:
    
@@ -112,7 +111,7 @@ Summary: Applications in user space communicate with the kernel using system cal
       - Your messaging app communicates with the Telephony Service (running in System Server) via Binder to send an SMS.
 8. Android apps use the framework and Binder IPC to talk to services. HAL allows OEMs to implement hardware features without changing upper layers.
 -------------------------------
-# ANDROID BOOT PROCESS
+# **ANDROID BOOT PROCESS**
 - The Android startup process involves a sequence of steps, starting with the bootloader and culminating in a "boot complete" broadcast, enabling Android applications to run.
 Here's a detailed breakdown of the process:
 
