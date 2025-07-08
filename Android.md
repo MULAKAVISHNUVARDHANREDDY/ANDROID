@@ -137,7 +137,7 @@ The Android boot process includes the following stages:
    - This process has a Process ID (PID) of 1, indicating it is the initial process loaded by the bootloader.
    - The init process is responsible for loading various components and "demons" (background services) that run behind the scenes of the Android operating 		system. It also maintains all 	other processes.
    - The init process takes its configuration and settings from a specific file called init.rc.
-   The init.rc File:
+   ## **The init.rc File:**
 	   - The init.rc file is crucial for the init process and is present in the root system of all Android operating systems, regardless of whether they are 		64-bit or 32-bit.
 	   - This file dictates how the init process operates and is responsible for mounting various file systems and loading kernel components.
 	   - The content of the init.rc file is vendor-specific, meaning different vendors may have different settings within their respective init.rc files.It 		is strongly advised not to change any settings inside this file, as it can lead to significant security issues.
