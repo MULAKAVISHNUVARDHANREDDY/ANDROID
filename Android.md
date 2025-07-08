@@ -70,7 +70,6 @@ Key Android Features:
 
 # **LINUX ARCHITECTURE**
 - Linux follows a layered architecture with two main spaces:
-  
 		![Screenshot 2025-07-03 093438](https://github.com/user-attachments/assets/5f8ec587-7f29-4bfc-b6c6-060d55145d6d)
   
 A. USER SPACE:
