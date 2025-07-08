@@ -52,6 +52,18 @@ Key Android Features:
 - Includes Low Memory Killer for aggressive memory management
 - Uses Hardware Abstraction Layer (HAL) to isolate hardware dependencies
 - Applications written in Java/Kotlin run on ART
+Java
+	Was the first main language for Android apps
+	Apps run on Android Runtime (ART)
+	Many Android features are still written in Java
+Kotlin
+	In 2017, Google made Kotlin the recommended language for Android
+	It's modern, safe, and shorter than Java
+	You can mix Kotlin and Java in the same project
+C/C++
+	Used for low-level tasks or when high speed is needed (like in games)
+	Developers use the Android NDK to write code in C/C++
+![image](https://github.com/user-attachments/assets/cef66f37-a5b4-4113-b0df-1dcaf2dd0e3d)
 
 -------------------------------------------
 # **Android vs Linux Architecture**
