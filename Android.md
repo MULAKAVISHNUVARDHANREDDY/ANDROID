@@ -8,35 +8,35 @@ Android is an open-source operating system based on the Linux kernel, designed p
 
 ## **Key Features of Android OS**
 1. Open-Source Foundation
-Source code available under AOSP
+	Source code available under AOSP
 	Highly customizable by OEMs and developers
 
 2. Linux Kernel-Based
-Built on a modified version of the Linux kernel Handles low-level device interactions and system services
+	Built on a modified version of the Linux kernel Handles low-level device interactions and system services
 
 3. Android Runtime (ART)
-Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
+	Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
 
 4. Layered Architecture
-Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
+	Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
 
 5. App Ecosystem
-Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
+	Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
 
 6. Customizable UI/UX
-OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
+	OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
 
 7. Security Features
-App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
+	App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
 
 8. Multi-device Support
-Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
+	Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
 
 9. Google Services Integration
-Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
+	Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
 
 10. Extensive Hardware Support
-Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
+	Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
 
 # **ANDROID**
 -----------
