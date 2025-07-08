@@ -1,7 +1,9 @@
 # **Android OS**
 1.What is Android OS?
 ```c
-Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets. Developed by Google and maintained via the Android Open Source Project (AOSP), it powers billions of devices worldwide, including wearables, smart TVs, and cars.
+Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets.
+Developed by Google and maintained via the Android Open Source Project (AOSP).
+It powers billions of devices worldwide, including wearables, smart TVs, and cars.
 1.First commercial release: Android 1.0 (2008)
 2.Current version: Android 14 (API 34).
 ```
