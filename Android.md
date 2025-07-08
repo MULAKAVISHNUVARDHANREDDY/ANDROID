@@ -149,6 +149,7 @@ The Android boot process includes the following stages:
    Example: Zygote is like a pre-heated oven ready to bake apps quickly
      	 - Zygote forks itself to create each new app process.
    	 - Saves memory via Copy-On-Write
+       
 8. Dalvik Virtual Machine (DVM):
 	- The DVM is essential because it is required to start and run any Android application. Android applications execute with the help of the Dalvik Virtual Machine.
 9. System Server Starts Android system services:
@@ -165,7 +166,7 @@ The Android boot process includes the following stages:
    - Navigation bar
    - Notification panel
    Example: System UI is the visual skin of Android
-11. Launcher
+. Launcher
    - Home screen is displayed
    - App icons, widgets, and user interaction starts
    - Boot is complete
