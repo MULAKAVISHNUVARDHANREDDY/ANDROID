@@ -127,7 +127,8 @@ Summary: Applications in user space communicate with the kernel using system cal
 - The Android startup process involves a sequence of steps, starting with the bootloader and culminating in a "boot complete" broadcast, enabling Android applications to run.
 Here's a detailed breakdown of the process:
 
-   ![image](https://github.com/user-attachments/assets/4a6d9ba8-8cdd-46ec-bed7-37d187503ca7)
+   	![chart2](https://github.com/user-attachments/assets/77df3146-5643-4ba1-9392-6480932158a5)
+
 
 The Android boot process includes the following stages:
 
