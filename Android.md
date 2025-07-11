@@ -8,7 +8,7 @@ It powers billions of devices worldwide, including wearables, smart TVs, and car
 2.Current version: Android 14 (API 34).
 ```
 
-## **Key Features of Android OS**
+### **Key Features of Android OS**
 1. Open-Source Foundation
 	Source code available under AOSP
 	Highly customizable by OEMs and developers
