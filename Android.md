@@ -9,10 +9,9 @@
 		2.Current version: Android 14 (API 34).
 
 ### **Key Features of Android OS**
-1. Open-Source Foundation
-	Source code available under AOSP
-	Highly customizable by OEMs and developers
-	
+1. Open-Source Foundation:
+	- Source code available under AOSP
+	- Highly customizable by OEMs and developers
 2. Linux Kernel-Based
 	Built on a modified version of the Linux kernel Handles low-level device interactions and system services
 	
