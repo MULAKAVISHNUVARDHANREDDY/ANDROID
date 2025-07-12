@@ -7,36 +7,36 @@
 		2.Current version: Android 14 (API 34).
 
 ### **Key Features of Android OS**
-	1. Open-Source Foundation
-		Source code available under AOSP
-		Highly customizable by OEMs and developers
+1. Open-Source Foundation
+	Source code available under AOSP
+	Highly customizable by OEMs and developers
 	
-	2. Linux Kernel-Based
-		Built on a modified version of the Linux kernel Handles low-level device interactions and system services
+2. Linux Kernel-Based
+	Built on a modified version of the Linux kernel Handles low-level device interactions and system services
 	
-	3. Android Runtime (ART)
-		Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
+3. Android Runtime (ART)
+	Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
 	
-	4. Layered Architecture
-		Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
+4. Layered Architecture
+	Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
 	
-	5. App Ecosystem
-		Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
+5. App Ecosystem
+	Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
 	
-	6. Customizable UI/UX
-		OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
+6. Customizable UI/UX
+	OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
 
-	7. Security Features
-		App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
+7. Security Features
+	App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
 	
-	8. Multi-device Support
-		Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
+8. Multi-device Support
+	Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
 	
-	9. Google Services Integration
-		Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
+9. Google Services Integration
+	Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
 	
-	10. Extensive Hardware Support
-		Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
+10. Extensive Hardware Support
+	Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
 
 # **ANDROID**
 -----------
@@ -147,17 +147,17 @@ The Android boot process includes the following stages:
 4. The Init Process:
    - Once the bootloader has booted the kernel, it starts the init process, which is the first Android operating system process.
    - This process has a Process ID (PID) of 1, indicating it is the initial process loaded by the bootloader.
-   - The init process is responsible for loading various components and "demons" (background services) that run behind the scenes of the Android operating 		system. It also maintains all 	other processes.
+   - The init process is responsible for loading various components and "demons" (background services) that run behind the scenes of the Android operating system. It also maintains all 	other processes.
    - The init process takes its configuration and settings from a specific file called init.rc.
-   **The init.rc File:**
-	   - The init.rc file is crucial for the init process and is present in the root system of all Android operating systems, regardless of whether they are 		64-bit or 32-bit.
+  	### **The init.rc File:**
+	   - The init.rc file is crucial for the init process and is present in the root system of all Android operating systems, regardless of whether they are 64-bit or 32-bit.
 	   - This file dictates how the init process operates and is responsible for mounting various file systems and loading kernel components.
-	   - The content of the init.rc file is vendor-specific, meaning different vendors may have different settings within their respective init.rc files.It 		is strongly advised not to change any settings inside this file, as it can lead to significant security issues.
+	   - The content of the init.rc file is vendor-specific, meaning different vendors may have different settings within their respective init.rc files.It	is strongly advised not to 		change any settings inside this file, as it can lead to significant security issues.
 5. The Zygote Process:
    - After loading its components and configuration, the init process starts another critical process known as the zygote process.
    - The zygote process is a child of the init process. This can be verified by checking its Parent Process ID (PPID), which will be 1 (the PID of the init 		process).
    - The primary role of the zygote process is to load the Dalvik Virtual Machine (DVM).
-   Example: Zygote is like a pre-heated oven ready to bake apps quickly
+   Example:Zygote is like a pre-heated oven ready to bake apps quickly
      	 - Zygote forks itself to create each new app process.
    	 - Saves memory via Copy-On-Write.
 6. Dalvik Virtual Machine (DVM):
