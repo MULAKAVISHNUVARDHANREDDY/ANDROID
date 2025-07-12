@@ -1,43 +1,42 @@
 # **Android OS**
 ### 1.What is Android OS?
 
-Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets.
-Developed by Google and maintained via the Android Open Source Project (AOSP).
-It powers billions of devices worldwide, including wearables, smart TVs, and cars.
-1.First commercial release: Android 1.0 (2008)
-2.Current version: Android 14 (API 34).
+	Android is an open-source operating system based on the Linux kernel, designed primarily for touchscreen mobile devices like smartphones and tablets.Developed by Google and maintained via the Android Open Source Project (AOSP).
+ 	It powers billions of devices worldwide, including wearables, smart TVs, and cars.
+		1.First commercial release: Android 1.0 (2008)
+		2.Current version: Android 14 (API 34).
 
 ### **Key Features of Android OS**
-1. Open-Source Foundation
-	Source code available under AOSP
-	Highly customizable by OEMs and developers
+	1. Open-Source Foundation
+		Source code available under AOSP
+		Highly customizable by OEMs and developers
+	
+	2. Linux Kernel-Based
+		Built on a modified version of the Linux kernel Handles low-level device interactions and system services
+	
+	3. Android Runtime (ART)
+		Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
+	
+	4. Layered Architecture
+		Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
+	
+	5. App Ecosystem
+		Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
+	
+	6. Customizable UI/UX
+		OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
 
-2. Linux Kernel-Based
-	Built on a modified version of the Linux kernel Handles low-level device interactions and system services
-
-3. Android Runtime (ART)
-	Replaces the older Dalvik VM Uses ahead-of-time (AOT) compilation for better performance
-
-4. Layered Architecture
-	Applications → Java/Kotlin Framework → ART → Native C/C++ Libraries → Linux Kernel
-
-5. App Ecosystem
-	Supports millions of apps via Google Play Store Apps built using Java, Kotlin, and Jetpack libraries
-
-6. Customizable UI/UX
-	OEMs create custom skins (e.g., One UI, OxygenOS, MIUI) Supports widgets, gestures, and dynamic themes
-
-7. Security Features
-	App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
-
-8. Multi-device Support
-	Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
-
-9. Google Services Integration
-	Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
-
-10. Extensive Hardware Support
-	Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
+	7. Security Features
+		App sandboxing (each app runs in its own process/UID) SELinux enforcement Regular monthly security patches Verified Boot & Google Play Protect
+	
+	8. Multi-device Support
+		Scales across phones, tablets, TVs (Android TV), cars (Android Auto), and wearables (Wear OS)
+	
+	9. Google Services Integration
+		Google Mobile Services (GMS): Maps, Gmail, Play Services (optional for OEMs)
+	
+	10. Extensive Hardware Support
+		Supports multiple architectures (ARM, ARM64, x86) HAL (Hardware Abstraction Layer) allows interaction with various hardware types
 
 # **ANDROID**
 -----------
@@ -92,7 +91,8 @@ B. KERNEL SPACE:
 - Device Drivers: Interface between hardware and kernel
 - Kernel Subsystems: MMU, VM, PM, IPC
 
-Summary: Applications in user space communicate with the kernel using system calls. The kernel manages all the low-level operations.
+### Summary: 
+	Applications in user space communicate with the kernel using system calls. The kernel manages all the low-level operations.
 
 -------------------------------------------
 
