@@ -150,19 +150,21 @@ The Android boot process includes the following stages:
    - The init process is responsible for loading various components and "demons" (background services) that run behind the scenes of the Android operating system. It also maintains all 	other processes.
    - The init process takes its configuration and settings from a specific file called init.rc.
   	### **The init.rc File:**
-	   - The init.rc file is crucial for the init process and is present in the root system of all Android operating systems, regardless of whether they are 64-bit or 32-bit.
+	   - The init.rc file is crucial for the init process and is present in the root system of all Android operating systems,
+   		regardless of whether they are 64-bit or 32-bit.
 	   - This file dictates how the init process operates and is responsible for mounting various file systems and loading kernel components.
-	   - The content of the init.rc file is vendor-specific, meaning different vendors may have different settings within their respective init.rc files.It	is strongly advised not to change any settings inside this file, as it can lead to significant security issues.
-5. The Zygote Process:
+	   - The content of the init.rc file is vendor-specific, meaning different vendors may have different settings within their respective init.rc files.
+           - It is strongly advised not to change any settings inside this file, as it can lead to significant security issues.
+6. The Zygote Process:
    - After loading its components and configuration, the init process starts another critical process known as the zygote process.
    - The zygote process is a child of the init process. This can be verified by checking its Parent Process ID (PPID), which will be 1 (the PID of the init process).
    - The primary role of the zygote process is to load the Dalvik Virtual Machine (DVM).
    Example:Zygote is like a pre-heated oven ready to bake apps quickly
      	 - Zygote forks itself to create each new app process.
    	 - Saves memory via Copy-On-Write.
-6. Dalvik Virtual Machine (DVM):
+7. Dalvik Virtual Machine (DVM):
 	- The DVM is essential because it is required to start and run any Android application. Android applications execute with the help of the Dalvik Virtual Machine.
-7. System Server Starts Android system services:
+8. System Server Starts Android system services:
    - Launched by Zygote
    - Hosts all system-level services:
         - ActivityManagerService
@@ -170,13 +172,13 @@ The Android boot process includes the following stages:
         - PackageManagerService
         - PowerManagerService
      Example: System Server is the brain of Androids logic and behavior
-8. System UI
+9. System UI
    - Provides visual components like:
    - Status bar
    - Navigation bar
    - Notification panel
    Example: System UI is the visual skin of Android
-9. Launcher
+10. Launcher
    - Home screen is displayed
    - App icons, widgets, and user interaction starts
    - Boot is complete
