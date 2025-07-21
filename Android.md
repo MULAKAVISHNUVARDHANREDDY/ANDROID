@@ -178,6 +178,6 @@ The Android boot process includes the following stages:
      Example: Launcher is the front desk receptionist â€” hands you access to everything
 This layered boot ensures a secure, modular, and fast startup.
 ---
-# Obtaining and Building Android Source
+# Obtaining and Building Android Source 
 ---
 
